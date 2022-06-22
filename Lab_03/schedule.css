@@ -1,0 +1,67 @@
+table {
+    width: auto;
+    border-collapse: collapse;
+    border: 4px solid black;
+}
+
+table th  {
+    border: 4px solid;
+}
+
+table td {
+    border: 1px solid;
+}
+
+table .Header {
+    background-color: rgb(226, 239, 218);
+    border-bottom: 4px solid;
+}
+
+table .leftHeader, table .day, table .lecture, table .upperWeek, table .downWeek {
+    background-color: rgb(217, 225, 242);
+}
+
+table .day {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    text-align: center;
+}
+
+table .lecture {
+    border: 1px solid;
+}
+
+table .auditorium {
+    text-align: center;
+    border-style: solid dashed;
+}
+
+table .firstWeek, table .secondWeek {
+    width: 1px;
+}
+
+table .firstLecture, table .secondLecture {
+    white-space: pre-wrap;
+}
+
+table .upperWeek, table .firstLecture {
+    border-top: 1px solid;
+    border-bottom: 1px dashed;
+}
+
+table .downWeek, table .secondLecture {
+    border-top: 1px dashed;
+    border-bottom: 1px solid;
+}
+
+table #group {
+    border-top: 4px solid;
+    border-right: 1px solid;
+}
+
+table #curator {
+    border: 1px solid;
+}
+caption{
+    font-size: x-large;
+}

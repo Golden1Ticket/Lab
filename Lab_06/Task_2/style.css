@@ -1,0 +1,22 @@
+header, nav, main, aside{
+    font-size: 48px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: lightblue;
+    padding: 2%;
+}
+
+header {
+    float: left;
+    width: 45.91%;
+}
+
+nav {
+    float: right;
+    width: 45.91%;
+}
+
+main {
+    clear: both;
+}
+
